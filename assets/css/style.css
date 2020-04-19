@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Manrope:300,400,700&display=swap');
+
+:root {
+    --color-1: rgb(255, 26, 117);
+    --color-2: rgb(242, 242, 242);
+    --color-3: rgb(26, 26, 26);
+    --color-4: rgb(13, 13, 13);
+
+}
+
+body {
+    background: var(--color-3);
+    font-family: 'Manrope', sans-serif;
+    color: var(--color-2);   
+}
+
+/*---Navigation---*/
+
+.navbar {
+    background: var(--color-4)!important;
+    color: var(--color-2) !important;
+}
+
+.navbar-dark .navbar-text {
+    color: var(--color-1);
+    font-family: 'Cinzel', sans-serif;
+    font-size: 2.5em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-nav li {
+    margin: 1.5rem 1.8rem 1rem 1.8rem;
+}
+.navbar-nav li,
+.navbar-dark .navbar-text:hover {
+    color: var(--color-2);
+   
+}
+/*---Home page ----------------*/
+
+
+/*---Carousel---*/
+
+.carousel-box {
+   
+}
+.carousel-inner img {
+      width: 100%;
+      height:100%;
+  }
+
+/*---Footer---*/
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:var(--color-4);
+   color: white;
+   text-align: center;
+}
+
+.list-inline i {
+    color: var(--color-2);
+}
