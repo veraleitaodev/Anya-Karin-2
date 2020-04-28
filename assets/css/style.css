@@ -1,71 +1,116 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Manrope:300,400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Open+Sans:300,400,700&display=swap");
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
 
 :root {
-    --color-1: rgb(255, 26, 117);
-    --color-2: rgb(242, 242, 242);
-    --color-3: rgb(26, 26, 26);
-    --color-4: rgb(13, 13, 13);
+  --color-1: rgb(201, 105, 146);
+  --color-2: rgb(242, 242, 242);
+  --color-3: rgb(10, 10, 10);
+  --color-4: rgba(32, 32, 32, 0.5);
 }
 
 body {
-    background: var(--color-3);
-    font-family: 'Manrope', sans-serif;
-    color: var(--color-2);   
+  background: var(--color-3);
+  font-family: "Open Sans", sans-serif;
+  color: var(--color-2);
 }
 
-/*---Header -----------------*/
+/*---Header ---------------------*/
 
-.navbar {
-    background: var(--color-4)!important;
-    color: var(--color-2) !important;
+#navbar {
+  background: var(--color-4);
+  height: 75px;
 }
 
-.navbar-dark .navbar-text {
-    color: var(--color-1);
-    font-family: 'Cinzel', sans-serif;
-    font-size: 2.5em;
-    margin-right: auto;
-    margin-left: auto;
+#navbarNavDropdown {
+  background: var(--color-4);
 }
 
-.navbar-nav li {
-    margin: 1.5rem 1.8rem 1rem 1.8rem;
-}
-.navbar-nav li,
-.navbar-dark .navbar-text:hover {
-    color: var(--color-2);
-   
+#logo {
+  color: var(--color-1);
+  font-family: "Cinzel", sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.2rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-/*---Footer -------------------*/
+nav .nav-link {
+  margin-right: 1.8rem;
+  letter-spacing: 4px;
+}
+
+#logo:hover {
+  color: var(--color-2);
+  text-decoration: none;
+}
+
+#navbarNavDropdown a:hover {
+  color: var(--color-1);
+}
+
+/*---Footer ---------------------*/
 
 footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color:var(--color-4);
-   color: white;
-   text-align: center;
-   border: .1rem;
-   
+  height: 75px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color-3);
+  color: white;
+  border-top: 0.1rem;
 }
 
-.list-inline i {
-    color: var(--color-2);
+#footer-container {
+  padding: 25px 0;
 }
 
-/*---Home page ----------------*/
+#footer-text {
+  text-align: center;
+}
 
+#footer-social-links {
+  text-align: center;
+}
 
-/*---Carousel---*/
+#footer-empty {
+  content: "";
+}
+
+#footer-social-links a {
+  color: var(--color-2);
+  size: 60px;
+}
+
+#footer-social-links i:hover {
+  color: var(--color-1);
+}
+
+/*---Home page ------------------*/
+
+/*---Carousel--
+
+#demo {
+  margin: 30px 40px auto;
+  overflow: hidden;
+}
+
+#carousel-indicators {
+    overflow: hidden;
+}
 
 .carousel-box {
-   
+  align-content: center;
 }
 
-.carousel-inner img { 
-    width:100%;
-    height:100%;
-}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}--*/
 
+/*---Main Video----*/
