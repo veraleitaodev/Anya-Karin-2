@@ -43,7 +43,7 @@ body {
     color: var(--color-2);
 }
 
-.navbar-nav .navbar-item:hover {
+#navbar-nav a:hover {
     color: var(--color-1);
 }
 
