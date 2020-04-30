@@ -17,8 +17,8 @@
   </head>
 
   <body id="body-aboutpage">
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-      <a href="index.html" class="navbar-brand">Anya Karin</a>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md" id="navbar">
+      <a href="index.html" class="navbar-brand ml-2" id="logo">Anya Karin</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -32,14 +32,14 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto">
-          <li class="active navbar-item mr-2">
+        <ul class="navbar-nav ml-auto" id="navbar-nav">
+          <li class="navbar-item mr-2">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="navbar-item mr-2">
             <a class="nav-link" href="music.html">Music</a>
           </li>
-          <li class="navbar-item mr-2">
+          <li class="active navbar-item mr-2">
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="navbar-item mr-2">
@@ -48,23 +48,43 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid main-container-about">
+    <main>
     
-    </div>
-    <footer>
-      <div id="footer-container" class="row mb-5">
-        <div id="footer-text" class="col-sm-4 mx-auto">
-          <h5>Follow me</h5>
+      <!--div class="container-fluid main-container">
+      <div class="row main-video-homepage">
+        <div class="col-12">
+          <iframe
+            width="853"
+            height="480"
+            src="https://www.youtube.com/embed/bU6-LgnpIRg"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
-        <div id="footer-social-links" class="col-sm-4">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
+        <div class="col-12 button-container">
+          <button type="button" class="btn btn-lg listen-button-homepage">
+            listen<a
+              target="_blank"
+              href="https://open.spotify.com/artist/4Nm12pXLo6uSawdmqpCSBg"
+            >
+            </a>
+          </button>
+        </div>
+      </div>
+    </div-->
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col mt-3 social-links-outer">
+          <ul class="list-inline social-links-inner">
+            <li class="list-inline-item mr-3">
               <a target="_blank" href="https://www.facebook.com/AnyaKarinSoul/">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
               </a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item mr-3">
               <a
                 target="_blank"
                 href="https://twitter.com/karin_anya?lang=en-gb"
@@ -73,7 +93,7 @@
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item mr-3">
               <a
                 target="_blank"
                 href="https://music.apple.com/us/artist/anya-karin/1460314571"
@@ -82,7 +102,7 @@
                 <span class="sr-only">Apple Music</span>
               </a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item mr-3">
               <a
                 target="_blank"
                 href="https://open.spotify.com/artist/4Nm12pXLo6uSawdmqpCSBg"
@@ -91,7 +111,7 @@
                 <span class="sr-only">Spotify</span>
               </a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item mr-3">
               <a
                 target="_blank"
                 href="https://www.instagram.com/anyakarinsinger/"
@@ -100,7 +120,7 @@
                 <span class="sr-only">Instagram</span>
               </a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item mr-3">
               <a
                 target="_blank"
                 href="https://www.youtube.com/channel/UCAxhU_069V-dojUvlqVV8ew"
@@ -111,11 +131,9 @@
             </li>
           </ul>
         </div>
-        <div id="footer-empty" class="col-sm-4">
-          <!--to add in future copyright logo/links-->
-        </div>
       </div>
     </footer>
+
     <!--source scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

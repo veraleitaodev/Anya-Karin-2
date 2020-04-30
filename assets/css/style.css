@@ -32,6 +32,7 @@ body {
   font-size: 36px;
   font-weight: 500;
   letter-spacing: 0.1rem;
+  text-shadow: 0 1px 0 var(--color-2);
 }
 
 .navbar-nav {
@@ -43,6 +44,7 @@ body {
 
 #logo:hover {
   color: var(--color-2);
+  text-shadow: 0;
 }
 
 #navbar-nav a:hover {
