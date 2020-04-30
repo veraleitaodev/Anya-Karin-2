@@ -7,11 +7,11 @@
 }
 
 :root {
-  --color-1: rgb(201, 105, 146);
+  --color-1: rgb(201, 144, 161);
   --color-2: rgb(242, 242, 242);
   --color-3: rgb(0, 0, 0);
   --color-4: rgba(32, 32, 32, 0.7);
-  --color-5: rgb(0, 0, 0, .3);
+  --color-5: rgb(0, 0, 0, .5);
 }
 
 body {
@@ -51,7 +51,12 @@ body {
 /*---Footer ---------------------*/
 
 footer {
-
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:var(--color-3);
 }
 
 /*---Home page ------------------*/
@@ -59,7 +64,7 @@ footer {
 #body-homepage {
   height: 100vh;
   
-  background: url("../images/Anya-original1-bw-2.jpg") no-repeat top center fixed;
+  background: url("../images/Anya-original1-bw-3.jpg") no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,18 +98,5 @@ iframe {
 /*---Music page ------------------*/
 
 /*---About page ------------------*/
-
-
-
-.opaque-overlay {
-    position: absolute;
-
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: var(--color-4);
-}
-
 
 /*---Contact page ------------------*/
