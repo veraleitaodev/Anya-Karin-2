@@ -48,31 +48,48 @@
         </ul>
       </div>
     </nav>
-    <main>
-    
-      <!--div class="container-fluid main-container">
-      <div class="row main-video-homepage">
-        <div class="col-12">
-          <iframe
-            width="853"
-            height="480"
-            src="https://www.youtube.com/embed/bU6-LgnpIRg"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="col-12 button-container">
-          <button type="button" class="btn btn-lg listen-button-homepage">
-            listen<a
-              target="_blank"
-              href="https://open.spotify.com/artist/4Nm12pXLo6uSawdmqpCSBg"
-            >
-            </a>
-          </button>
+    <main class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h4 class="text-center">
+            Would you like me to perform at your event?
+          </h4>
+          <h5 class="text-center">Get in contact</h5>
         </div>
       </div>
-    </div-->
+      <div class="row justify-content-center">
+        <div class="col-6 center-form">
+          <form class="contact-form">
+            <input
+              type="text"
+              name="name"
+              id="fullname"
+              class="form-control mb-2"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="email"
+              name="emailaddress"
+              id="emailaddress"
+              class="form-control mb-2"
+              placeholder="Email address"
+              required />
+            <textarea
+              name="contactdescription"
+              id="contactdescription"
+              rows="10"
+              placeholder="Event description"
+              required
+            ></textarea>
+            <div class="row justify-content-center">
+              <div class="col">
+                <button type="submit" btn btn-secondary>Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="row">
